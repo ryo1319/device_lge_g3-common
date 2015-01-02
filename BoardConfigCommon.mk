@@ -47,6 +47,13 @@ BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x0008000 --ramdisk_offset 0x2000000
 TARGET_KERNEL_SOURCE := kernel/lge/g3
 
+# Custom Kernel Toolchain
+TARGET_GCC_VERSION_ARM := 4.10-sm
+# Graphite optimizations
+SYMMETRY := true
+GRAPHITE_OPTS := true
+STRICT_ALIASING := true
+
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 
