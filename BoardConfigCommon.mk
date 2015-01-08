@@ -54,6 +54,9 @@ SYMMETRY := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
 
+# Create changelog
+VALIDUS_CHANGELOG := true
+
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
