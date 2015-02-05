@@ -52,7 +52,7 @@ TARGET_GCC_VERSION_ARM := 4.10-sm
 # Graphite optimizations
 SYMMETRY := true
 GRAPHITE_OPTS := true
-STRICT_ALIASING := true
+STRICT_ALIASING := false
 
 # Create changelog
 VALIDUS_CHANGELOG := true
