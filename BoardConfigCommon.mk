@@ -57,6 +57,10 @@ STRICT_ALIASING := true
 # Create changelog
 VALIDUS_CHANGELOG := true
 
+#Block Based OTA Option
+BLOCK_BASED_OTA := false
+
+
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
